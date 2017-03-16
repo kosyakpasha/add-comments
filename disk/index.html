@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Вероника Ростова</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet">
+	<script src="js/common.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header class="header profile">
+			<section class='profile-top'>
+				<img src='img/logo.png' alt="logo" class="profile-top-logo">
+				<h1 class="profile-top-name bold">Вероника Ростова</h1>
+				<h2 class="profile-top-profession regular">Менеджер по продажам</h2>
+				<p class="profile-top-description">Подберу для вас самые лучшие предложения. Мои услуги абсолютно бесплатны</p>
+			</section>
+			<section class="profile-bottom">
+				<div class="profile-bottom-block">
+					<h2 class="profile-table-title regular">
+						Услуг
+					</h2>
+					<table class="profile-bottom-table">
+						<tbody class='table-tbody'>
+							<tr>
+								<td class='table-tbody-name'>
+									<div class="progress">
+									    <progress max="100" value="0"></progress>
+									    <div class="progress-value"></div>
+									    <div class="progress-bg green progress-booking">
+									    	<span class="progress-text regular">
+									    		Ручное бронирование
+									    	</span>
+									    	<div class="progress-bar"></div>
+									    </div>
+									</div>
+								</td>
+								<td class='table-tbody-value bold'>11</td>
+							</tr>
+							<tr>
+								<td class='table-tbody-name'>
+									<div class="progress">
+									    <progress max="100" value="0"></progress>
+									    <div class="progress-value"></div>
+									    <div class="progress-bg blue progress-tours">
+									    	<span class="progress-text regular">
+									    		Пакетные туры
+									    	</span>
+									    	<div class="progress-bar"></div>
+									    </div>
+									</div>
+								</td>
+								<td class='table-tbody-value bold'>3</td>
+							</tr>
+							<tr>
+								<td class='table-tbody-name'>
+									<div class="progress">
+									    <progress max="100" value="0"></progress>
+									    <div class="progress-value"></div>
+									    <div class="progress-bg blue progress-hotels">
+									    	<span class="progress-text regular">
+									    		Отели
+									    	</span>
+									    	<div class="progress-bar"></div>
+									    </div>
+									</div>
+								</td>
+								<td class='table-tbody-value bold'>1</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="profile-total-block">
+						<div class="profile-total bold">
+							Всего
+						</div>
+						<div class="profile-total-value bold">
+							15
+						</div>					
+					</div>
+				</div>
+			</section>
+		</header>
+		<main class="main">
+			<section class="reviews">
+				<h1 class="reviews-title bold">
+					Последние отзывы
+				</h1>
+				<a href="#" class="reviews-button regular">
+					Все отзывы  
+				</a>
+				<div class="reviews-icons-block">
+					<div class="reviews-heart">
+						<div class="reviews-icon-heart heart icon"></div>
+						<div class="reviews-heart-number">
+							131
+						</div>
+					</div>
+					<div class="reviews-chat">
+						<div class="reviews-icon-chat chat icon"></div>
+						<div class="reviews-chat-number">
+							14
+						</div>
+					</div>
+				</div>
+				<ul class="reviews-list" id='reviewsList'>
+					<li class="reviews-item">
+						<h2 class="reviews-item-name bold">
+							Самуил  
+						</h2>
+						<span class="reviews-item-date regular">
+							13 октября 2011
+						</span>
+						<p class="reviews-item-text regular">
+							Привет, Верунь! ниче себе ты крутая. фотка класс!!!! 
+						</p>
+					</li>
+					<li class="reviews-item">
+						<h2 class="reviews-item-name bold">
+							Лилия Семёновна  
+						</h2>
+						<span class="reviews-item-date regular">
+							14 октября 2011
+						</span>
+						<p class="reviews-item-text regular">
+							Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?
+						</p>
+					</li>
+					<li class="reviews-item">
+						<h2 class="reviews-item-name bold">
+							Лилия Семёновна
+						</h2>
+						<span class="reviews-item-date regular">
+							14 октября 2011
+						</span>
+						<p class="reviews-item-text regular">
+							Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?
+						</p>
+					</li>
+				</ul>
+			</section>
+		</main>
+		<footer class="footer" id='footer'>
+			<form>
+				<textarea name="text" id="footerInput"  required maxlength="35000" class="footer-input regular"></textarea>
+				<div class="footer-button-block">
+					<input class="footer-button bold" id='footerButton' type="button" value="Написать консультанту">
+				</div>
+			</form>
+		</footer>
+	</div>
+</body>
+</html>

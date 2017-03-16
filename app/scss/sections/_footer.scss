@@ -1,0 +1,34 @@
+.footer{
+	background: #f2f2f2;
+    padding: 28px 21px 46px 21px;
+}
+.footer-button{
+	font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    background: #fdd639;
+    padding: 11px 58px;
+    border-radius: 20px;
+    color: #333333;
+    display: inline-block;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+   	&:hover{
+		background: rgba(253, 214, 57, 0.6);
+		transition: all 0.2s ease;
+		cursor: pointer;
+	}
+}
+.footer-input{
+    width: 100%;
+    height: 65px;
+    border: 1px solid #a9a9a9;
+    border-radius: 3px;
+    margin-bottom: 21px;
+}
+.footer-button-block{
+	text-align: center;
+}
+#footerInput{
+	resize: none;
+}
